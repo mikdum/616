@@ -1,0 +1,31 @@
+.footer-container4 {
+    position: relative;
+    padding: 60px 0;
+    background-color: #414141;
+    color: #fff;
+}
+#heads{
+     display: flex;
+     margin: 20 20;
+
+}
+h1{
+    margin-left: 40px;
+}
+#logo{
+    width: 10%;
+}
+
+@media (max-width: 480px) {
+
+    #logo { display: none; }
+    
+    .footer-container4 { display: none; }
+    .nav-tabs { display: block; }
+    
+     
+    }/* 
+    @media(min-width: 481px) {
+        .nav-tabs { display: flex; }
+
+    } */
